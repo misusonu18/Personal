@@ -8,6 +8,7 @@ body{
     background-color: #000000;
     color: white;
     font-size: 20px;
+    font-family: Autour One;
 }
 
 html {
@@ -31,7 +32,6 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
-    font-family: Autour One;
 }
 
 #educationContainer {
@@ -39,7 +39,6 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: Autour One;
 }
 
 #portfolioContainer {
@@ -47,7 +46,6 @@ html {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: Autour One;
 }
 
 #aboutImageContainer {
@@ -67,10 +65,6 @@ transition: transform 0.5s;
 -webkit-transition: transform 0.5s;
 -moz-transition: transform 0.5s;
 -o-transition: transform 0.5s;
-}
-
-.font-cabin {
-    font-family: Cabin Sketch;
 }
 
 .about-font-size {
