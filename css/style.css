@@ -38,18 +38,21 @@ html {
     background-image: url("/images/education.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
 }
 
 #portfolioContainer {
     background-image: url("/images/portfolio.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
 }
 
 #contactContainer {
     background-image: url("/images/contact.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
 }
 
 #aboutImageContainer {
