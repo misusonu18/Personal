@@ -41,7 +41,13 @@ html {
 }
 
 #portfolioContainer {
-    background-image: url("/images/portfolop1.svg");
+    background-image: url("/images/portfolio.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contactContainer {
+    background-image: url("/images/contact.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
