@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css?family=Cabin Sketch";
+@import "https://fonts.googleapis.com/css?family=Autour One";
+@import "https://fonts.googleapis.com/css?family=Architects Daughter";
+@import "https://fonts.googleapis.com/css?family=Finger Paint";
+body{
+    margin-right:0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E"); 
+    color: white;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+.navbar-brand{
+    font-family: Architects Daughter;
+    font-size: 30px !important;
+}
+
+#homeContainer {
+    background-image: url("/images/home.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+#aboutContainer {
+    background-image: url("/images/about.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    font-family: Autour One;
+}
+
+#educationContainer {
+    background-image: url("/images/education.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Autour One;
+}
+
+#portfolioContainer {
+    background-image: url("/images/portfolop1.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Autour One;
+}
+
+#aboutImageContainer {
+    perspective: 20px;
+}
+  
+#aboutImageInner {
+width: 18.7em;
+height: 18em;
+background-image: url("/images/blob-shape.png");
+background-size: cover;
+border: 1px solid white;
+border-radius: 10px;
+background-position: center;
+box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+transition: transform 0.5s;
+-webkit-transition: transform 0.5s;
+-moz-transition: transform 0.5s;
+-o-transition: transform 0.5s;
+}
+
+.font-cabin {
+    font-family: Cabin Sketch;
+}
+
+.about-font-size {
+    font-size: 19px;
+}
+
+.about-font-size a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.portfolio-project {
+    background-image: url("/images/laptop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;    
+}
+
+.portfolio-project-overlay {
+    background-color: rgba(30, 243, 126, 0.863);
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-project a{
+    color: black;
+}
+
+.portfolio-project a:hover {
+    text-decoration: none;
+}
+
+.portfolio-project a:hover .portfolio-project-overlay {
+    background-color: skyblue;
+    opacity: 0.8;
+}
+
+.modal {
+    background-color: transparent !important;
+}
+
+.modal-content {
+    color: black !important;
+}
+
+.progress {
+    border-radius: 50px;
+}
+
+.progress-bar {
+    background:linear-gradient(to right,#283048,#859398) !important;
+}
