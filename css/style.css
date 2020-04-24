@@ -20,36 +20,8 @@ html {
     font-size: 30px !important;
 }
 
-#homeContainer {
+#homeContainer, #aboutContainer, #educationContainer, #portfolioContainer, #contactContainer {
     background-image: url("/images/home.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-#aboutContainer {
-    background-image: url("/images/about.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-#educationContainer {
-    background-image: url("/images/education.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-#portfolioContainer {
-    background-image: url("/images/portfolio.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-#contactContainer {
-    background-image: url("/images/contact.svg");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
