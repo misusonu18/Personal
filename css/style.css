@@ -36,14 +36,12 @@ html {
 
 #educationContainer {
     background-image: url("/images/education.svg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #portfolioContainer {
     background-image: url("/images/portfolop1.svg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
 }
