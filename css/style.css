@@ -83,6 +83,11 @@ transition: transform 0.5s;
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
 .portfolio-project a:hover .portfolio-project-overlay {
     background-color: skyblue;
     opacity: 0.8;
